@@ -22,15 +22,15 @@ async function run() {
             }
             ],
             // update the IPFS CID to be your image CID
-            image: "https://ipfs.io/ipfs/QmQ2wnwaFJ1w42UTywTWpM8RgiqrWwKFR6AMrpyiHPgi3p",
-            description: "So much PLW3!"
+            image: "https://ipfs.io/ipfs/QmQ8Xsd4goDPZu56w1mthWB83sATq5NRrGSs9fjgqNJhgm",
+            description: "So much LOVE!"
         })
     };
 
     const result = await ipfs.add(metadata);
     console.log(result);
 
-    process.exit(0);
+    process.exit(0); 
 }
 
 run();
